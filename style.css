@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    background-image: url("fundo.jpg");
+}
+h1{
+    margin-top: 5px;
+}
+#container{
+    background-image: linear-gradient(to right, #0000ffbb, #8a2be2bb, #ee82eebb);
+    width: 70%;
+    height: 550px;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-flow: wrap;
+    border-radius: px;
+    border: 2px solid white;
+}
+#content{
+    background-color: transparent;
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    flex-flow: wrap ;
+    border-radius: 20px; 
+    
+}
+#texto{
+    margin-top: 5px;
+    width: 100%;
+    margin: auto;
+    font: italic;
+    font-size: 20px;
+}
+#item{
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    background-image: linear-gradient(to right, blue,red);
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    flex-flow: wrap;
+    
+}
+#resposta{
+    height: 24px;
+    border: 2px solid white;
+    background-image: linear-gradient(to right, blue,red);
+    text-align: center;
+
+}
+#resposta::-webkit-inner-spin-button{
+    appearance: none;
+}
+input[type = button]{
+    font-size: 18px;
+    background-image: linear-gradient(to right, blue,red);
+    color: white;
+    font: italic;
+    width: 20%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 2px;
+}
+input[type = button]:hover{
+    color: black;
+    font-size: 18px;
+    font: italic;
+}
+#t{
+    margin: auto;
+    font-size: 18px;
+    font: italic;
+    width: 20%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    padding: 2px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media(min-width: 581px) and (max-width: 610px){
+    #container{
+        height: 680px;
+    }
+}
+@media screen and (max-width: 950px){
+   
+    #item{
+        height: 10vw;
+
+    }
+    #Start{
+        width: auto;
+    }
+   #en{
+       width: auto;
+   }
+   #re{
+       width: auto;
+   }
+    
+}
+@media screen and (max-width: 580px){
+    #container{
+        width: 80%;
+        height: auto;
+    }
+    #content{
+        height: auto;
+        word-wrap: break-word;
+    }
+    #item{
+        display: flex;
+        height: auto;
+        margin-bottom: 5px;
+        word-wrap: break-word;
+    }
+    #Start{
+        width: auto;
+    }
+   #en{
+       width: auto;
+   }
+   #re{
+       width: auto;
+   }
+}
+.r{
+    width: 80%;
+    font-size: 22px;
+    font: italic;
+    color: white;
+    padding: 3px 0 3px 0;
+    margin: auto;
+
+}

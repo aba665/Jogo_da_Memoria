@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Jogo da Memória</title>
+</head>
+<body>
+
+        <div id="container">
+            <div id="content">
+                <div id="texto">
+                <h1>Jogo da Memória</h1>
+                <p>O objetivo do jogo é decorar os seis números que irão aparecer na tela e serão apagados no decorrer de 4 segundos, depois   digitar os seis números um de cada vez e ir enviando até chegar ao último, e no final é só olhar o resultado</p>
+                <p>O jogo será iniciado quando o botão Começar ser clicado. Bom Jogo!!!</p>
+                </div>
+                <div id="item">
+                    <div id="Resultado">NÚMEROS A SEREM DECORADOS</div>
+                   
+                </div>
+                <div  class="r" id="decorado"></div>
+                <div class="r" id="digitado"></div>
+                <div  class="r" id="answer"></div>
+                <input type="button" value="Começar" id="Start" onclick="Start()">
+                <div>
+                    <input id="resposta" type="number">
+                    <input id="en" type="button" value="Enviar" onclick="Confirmar()">
+                </div>
+                <input id="re" type="button" value="Resultado" onclick="comparation()">
+                <div id="t">
+                   
+                </div>
+            </div>
+        </div>
+</body>
+</html>
