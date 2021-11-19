@@ -1,2 +1,3 @@
 # Jogo_da_Memoria
- É um jogo onde memorizamos uma sequência de números e depois digitamos em seguida, e os acertos resulta em próximas fases.
+O jogo da memória foi um projetinho onde eu queria me testar, buscar algo que trouxesse uma interação a mais com o usuário, foi aí que surgiu a ideia de fazer um joguinho por conta própria.
+😄
